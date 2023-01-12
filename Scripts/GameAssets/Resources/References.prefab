@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1293189283391953722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4781793142784900318}
+  - component: {fileID: -1259210216694330725}
+  m_Layer: 0
+  m_Name: References
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4781793142784900318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293189283391953722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1259210216694330725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293189283391953722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fd535004c4d6f40a969a7754d064bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animSyncController: {fileID: 9100000, guid: e0b0a185ed460bc409cdff0ec96837f3, type: 2}
+  inputPortPrefab: {fileID: 1589130217504593971, guid: 3a1d44383159182499b28dafad9f2fbc,
+    type: 3}
+  outputPortPrefab: {fileID: 7775892892787047612, guid: c141f7cfbb0685f488e211bae90f8df2,
+    type: 3}
+  itemReferences:
+    copperIngot: {fileID: 11400000, guid: 9ee61371125b92640bbaeb3e4b0268ec, type: 2}
+    goldIngot: {fileID: 11400000, guid: 07913f6332e201947b6af3e9e7e88155, type: 2}
+    ironIngot: {fileID: 11400000, guid: 184b3f4e7c9c6ee43bdbbbc077db03fb, type: 2}
+    tungstenIngot: {fileID: 11400000, guid: c32c7415a2f37244ab6333e97afd942c, type: 2}
+    itemPrefab: {fileID: 2545089980917530853, guid: 6dffcbc276d60dd4f895469b7b916cdc,
+      type: 3}
+  buildingReferences:
+    belt: {fileID: 11400000, guid: f653f997a4474b5438180a7aa8f7d39c, type: 2}
+    machine: {fileID: 11400000, guid: 5066e6b03dbbc384a9554bf5ddaa3ca9, type: 2}
+    itemSource: {fileID: 11400000, guid: 5544486ccb906dd4e9f6edb5bd47dd57, type: 2}
+    itemStorage: {fileID: 11400000, guid: ffbb8adfb947eb94bb3d95c364f19e74, type: 2}
+    junction: {fileID: 11400000, guid: 58cbaaff3becbf94a93e5de838b71802, type: 2}
+  recipeReferences:
+    copperToGold: {fileID: 11400000, guid: f2779e64bc1b64f41a0bd72254661de4, type: 2}
+    goldToTungsten: {fileID: 11400000, guid: 7d8c889f1e503fb4ca5cc17085e5875a, type: 2}
+    ironToCopper: {fileID: 11400000, guid: e488b88bffe7c9f46a406eb790f6d2e9, type: 2}
+    ironToIron: {fileID: 11400000, guid: 32a64f60e5ff72448828093466d2def5, type: 2}
